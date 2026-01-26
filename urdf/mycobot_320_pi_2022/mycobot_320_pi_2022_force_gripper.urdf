@@ -286,7 +286,7 @@
   <joint name="joint6output_to_gripper_connect" type="fixed">
     <parent link="link6"/>
     <child link="gripper_connection"/>
-     <origin xyz= "0 0.0 0.0" rpy = "0 0 0"/>
+     <origin xyz= "0 0.0 0.0" rpy = "0 0 -0.785398"/>
   </joint> 
 
   <joint name="joint6output_to_gripper_base" type="fixed">
