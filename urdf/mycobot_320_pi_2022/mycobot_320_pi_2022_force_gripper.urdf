@@ -12,7 +12,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/base.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/base.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <origin xyz = "0.0 0 0 " rpy = " 0 0 1.5708"/>
     </collision>
@@ -28,7 +28,7 @@
     </visual>
     <collision>
      <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link1.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
      <origin xyz = "0.0 0.0 -0.078 " rpy = " 0 0 1.5708"/>
     </collision>
@@ -44,7 +44,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link2.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
        <origin xyz = "0.0 0.0 -0.04 " rpy = " 0 1.5708 0"/>
     </collision>
@@ -59,7 +59,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link3.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link3.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin xyz = "0.0 0.0 0.039 " rpy = " 1.5708 1.5708 1.5708"/>
     </collision>
@@ -74,7 +74,7 @@
     </visual>
     <collision>
        <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link4.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link4.dae" scale="0.001 0.001 0.001"/>
       </geometry>
        <origin xyz = "0.0 -0.0024 -0.05" rpy = " 1.5708 1.5708 0"/>
     </collision>
@@ -89,7 +89,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link5.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link5.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     <origin xyz = "0.0 0.0 -0.05 " rpy = " 0  0 -1.5708"/>
     </collision>
@@ -104,7 +104,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link6.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/link6.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     <origin xyz = "0.0 0.0 -0.022 " rpy = " 1.5708 1.5708 0"/>
     </collision>
@@ -119,7 +119,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/mygripper_f100_connection.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/mygripper_f100_connection.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     <origin xyz = "-0.03 0.014 0 " rpy = " 0  0 -1.5708"/>
     </collision>
@@ -134,7 +134,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_base.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_base.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     <origin xyz = "-0.107 0.012 0.0 " rpy = " 1.5708  0 1.5708"/>
     </collision>
@@ -149,7 +149,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_left1.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_left1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
         <origin xyz = "-0.047 -0.013 0.044 " rpy = " 1.5708 0 1.5708"/>
     </collision>
@@ -164,7 +164,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_left2.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_left2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
         <origin xyz = "-0.0 0.03 0.004 " rpy = " 3.14159 0 1.5708"/>
     </collision>
@@ -180,7 +180,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_left3.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_left3.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     <origin xyz = "0 -0.03 0.012 " rpy = " 1.5708 3.14159 1.5708"/>
     </collision>
@@ -195,7 +195,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_right1.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_right1.dae" scale="0.001 0.001 0.001"/>
       </geometry>
         <origin xyz = "0.047 -0.013 -0.046 " rpy = " 1.5708 3.14 -1.5708"/>
     </collision>
@@ -210,7 +210,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_right2.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_right2.dae" scale="0.001 0.001 0.001"/>
       </geometry>
         <origin xyz = "0 0.03 -0.005 " rpy = " 0 0 1.5708"/>
     </collision>
@@ -226,7 +226,7 @@
     </visual>
     <collision>
       <geometry>
-       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_right3.dae"/>
+       <mesh filename="package://mycobot320pi_urdf/urdf/mycobot_320_pi_2022/force_control_gripper/pro_gripper_right3.dae" scale="0.001 0.001 0.001"/>
       </geometry>
     <origin xyz = "-0.014 -0.029 0.004 " rpy = " 3.14 0 -1.5708"/>
     </collision>
@@ -350,4 +350,3 @@
 
 
 </robot>
-
