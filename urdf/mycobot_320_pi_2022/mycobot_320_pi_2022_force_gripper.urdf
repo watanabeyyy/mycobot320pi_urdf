@@ -348,5 +348,12 @@
     <mimic joint="gripper_controller" multiplier="1.0" offset="0" />
   </joint>
 
+  <link name="gripper_grasp"/>
+  <joint name="gripper_base_to_gripper_grasp" type="fixed">
+    <parent link="gripper_base"/>
+    <child link="gripper_grasp"/>
+    <origin xyz="0 0.1236 -0.02" rpy="-1.5708 0 0"/>
+  </joint>
+
 
 </robot>
